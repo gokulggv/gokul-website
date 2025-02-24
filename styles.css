@@ -1,0 +1,57 @@
+/* Basic styling for product cards */
+.product-card {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.product-card-body h5 {
+    font-size: 1.25rem;
+}
+
+.product-card-body p {
+    color: #777;
+    font-size: 1rem;
+}
+
+.product-card-body .btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.product-card-body .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar background color change on click */
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.bg-active {
+    background-color: black; /* Dark blue for active navbar */
+}
+
+/* Active Link Style */
+.nav-link.active {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
